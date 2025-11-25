@@ -3,12 +3,20 @@
 Türkçe Wikipedia'da kategorileri otomatik olarak yöneten bir Node.js botu. İngilizce Wikipedia'daki kategorileri karşılaştırarak, Türkçe Wikipedia'da eksik olan kategori atamalarını tespit eder ve otomatik olarak ekler.
 
 ## 🚀 Özellikler
-
+Cat4.js
 - İngilizce ve Türkçe Wikipedia kategorilerini karşılaştırma
 - Wikidata üzerinden madde eşleştirmesi
 - Eksik kategori atamalarını otomatik tespit
 - Toplu kategori ekleme
 - Yorum içindeki kategorileri aktif hale getirme
+- Rate limiting ve hata yönetimi
+
+  Cat-com.js
+- İngilizce ve Türkçe Wikipedia kategorilerini karşılaştırma
+- Wikidata üzerinden madde eşleştirmesi
+- Eksik kategorilerin tespiti
+- Türkçe Wikipedia'da bulunmayan fakat içerisine badde eklenebilecek kategorilerin tespiti.
+- Potansiyeli olan kategorilerin QID ve içeriklerinin istatistikleri
 - Rate limiting ve hata yönetimi
 
 ## 📋 Gereksinimler
